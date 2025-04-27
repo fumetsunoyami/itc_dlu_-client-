@@ -11,4 +11,5 @@ func main() {
 	database.ConnectDB() // Kết nối CSDL
 	myApp := app.New()
 	views.ShowLogin(myApp)
+	myApp.Run()
 }
